@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RemoveByLength {
+
+    /* Rekurzivnim algoritmom iz niza sa proizvoljnim brojem stringova izvršite ekstrakciju samo stringova željene duljine (npr. 3).
+    Ispišite ulazni niz   i dobiveni niz rekurzivnim algoritmom. Napišite pseudokod algoritma koji bi vršio isti zadatak, a koji ne
+     koristi princip rekurzije.
+     */
+
     public static void main(String[] args) {
         List<String> lista = new ArrayList<>(); // ovo je isto kao i String[] lista = new String[10];
         lista.add("ovo");

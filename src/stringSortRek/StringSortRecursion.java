@@ -4,6 +4,12 @@ import java.util.Arrays;
 
 public class StringSortRecursion {
 
+/* U prvom dijelu ovog zadatka trebate realizirati jednostavni algoritam NaiveStringSort koji će listu stringova sortirati uzlazno prema
+duljini stringova. Potom je potrebno osigurati rekurzivni ispis svakog elementa tako sortirane liste i njegovu duljinu, te za
+ koliko je znakova kraći od naduljeg stringa u listi. Ovo vam govori da posljednji element sortirane liste ima taj parametar
+ jednak nuli iz razloga što je on i najdulji pa u odnosu na sebe nije kraći niti dulji.
+ */
+
     public static void main(String[] args) {
             String[] lista = {"ovo874", " je 34 487", "test", "za ovaje", "zadatak"};
             System.out.println(Arrays.toString(lista));
@@ -13,7 +19,7 @@ public class StringSortRecursion {
         }
 
         public static void naiveStringSort(String[] lista) { //sortira stringove po duljini
-            for (int i = 0; i < lista.length; i++) {
+            for (int i = 0; i < lista.length; i++) { //bubble sort
                 for (int j = 0; j < lista.length; j++) {
                     if (lista[i].length() < lista[j].length()) {
                         String temp = lista[i];

@@ -2,6 +2,11 @@ package maxUListi;
 
 public class FindMax {
 
+    /* Napravite algoritam koji može primiti proizvoljni broj nizova / lista cijelih brojeva te će pronaći maksimalnu vrijednost
+     od svih mogućih vrijednosti. Također, algoritam treba  dati podatak u kojem nizu je taj maksimum, te koja mu je izvorna indeksna pozicija u
+     tom nizu. Isto tako osigurajte ispis svih promatranih nizova.
+     */
+
     public static void main(String[] args) {
         int[] lista1 = {23, 1, -100, 23, 44, 567, 10000, 0};
         int[] lista2 = {-2, 3, 50000, 89, 1000};
